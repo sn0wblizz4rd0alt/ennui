@@ -76,7 +76,7 @@ public class AutoPot extends Module {
     protected int throwCounter = 0;
 
     public AutoPot() {
-        super("AutoPot", Category.Combat);
+        super("WindAutoPot", Category.Player);
         this.listeners.add(new ListenerMotion(this));
         this.listeners.add(new ListenerTick(this));
         this.listeners.add(new ListenerUseItem(this));
