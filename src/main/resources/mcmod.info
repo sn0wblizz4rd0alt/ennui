@@ -1,13 +1,13 @@
 [
 {
-  "modid": "ennui",
-  "name": "Ennui",
-  "description": "A 1.12.2 Anarchy Client.",
+  "modid": "wind",
+  "name": "Wind",
+  "description": "My dream is dead, no fear, no fate.",
   "version": "0.0.1",
   "mcversion": "1.12.2",
   "url": "",
   "updateUrl": "",
-  "authorList": ["3arthqu4ke","Gerald","Megyn","Ohare"],
+  "authorList": ["posixpwnd"],
   "credits": "Phobos",
   "logoFile": "",
   "screenshots": [],
