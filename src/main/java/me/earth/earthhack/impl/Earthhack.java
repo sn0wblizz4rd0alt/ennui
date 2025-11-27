@@ -13,8 +13,8 @@ import org.lwjgl.opengl.Display;
 
 public class Earthhack implements Globals
 {
-    private static final Logger LOGGER = LogManager.getLogger("ennui");
-    public static final String NAME = "ennui";
+    private static final Logger LOGGER = LogManager.getLogger("wind");
+    public static final String NAME = "wind;
     public static final String VERSION = "0.0.1";
 
     public static void preInit()
@@ -24,13 +24,13 @@ public class Earthhack implements Globals
 
     public static void init()
     {
-        LOGGER.info("\n\nInitializing Ennui.");
-        SplashScreenHelper.setSplashScreen("Initializing Ennui", 7);
+        LOGGER.info("\n\nInitializing Fate.");
+        SplashScreenHelper.setSplashScreen("Initializing Fate", 7);
         Display.setTitle(NAME + " - " + VERSION);
         Managers.load();
         LOGGER.info("Prefix is " + Commands.getPrefix());
         SplashScreenHelper.clear();
-        LOGGER.info("\nEnnui initialized.\n");
+        LOGGER.info("\nFate initialized.\n");
     }
 
     public static void postInit()
