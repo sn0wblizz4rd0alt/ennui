@@ -1,3 +1,4 @@
-# ennui
-pov: u cant java and u wanna make a client
--chatgpt
+# WindClient
+**A client can give you fate**
+# TODOLIST
+autopot [x]

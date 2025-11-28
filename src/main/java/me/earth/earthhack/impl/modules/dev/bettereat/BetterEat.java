@@ -4,6 +4,7 @@ import me.earth.earthhack.api.module.Module;
 import me.earth.earthhack.api.module.util.Category;
 import me.earth.earthhack.api.setting.Setting;
 import me.earth.earthhack.api.setting.settings.BooleanSetting;
+import me.earth.earthhack.api.setting.settings.EnumSetting;
 import me.earth.earthhack.impl.event.events.keyboard.MouseEvent;
 import me.earth.earthhack.impl.event.events.misc.TickEvent;
 import me.earth.earthhack.impl.event.listeners.LambdaListener;
@@ -14,6 +15,7 @@ import net.minecraftforge.fml.common.Mod;
 @Mod.EventBusSubscriber
 public class BetterEat extends Module {
     private final Setting<Boolean> toggleEat = register(new BooleanSetting("Toggle Eat", false));
+    private final Setting<Enum> handmode = register(new EnumSetting())
     private boolean toggled = false;
 
     public BetterEat() {

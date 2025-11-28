@@ -42,11 +42,7 @@ import me.earth.earthhack.impl.modules.combat.autotrap.AutoTrap;
 import me.earth.earthhack.impl.modules.combat.bedaura.BedAura;
 import me.earth.earthhack.impl.modules.combat.pistonaura.PistonAura;
 import me.earth.earthhack.impl.modules.combat.pistonpush.PistonPush;
-import me.earth.earthhack.impl.modules.dev.bedbaseplace.BedBasePlace;
-import me.earth.earthhack.impl.modules.dev.boatkiller.BoatKiller;
-import me.earth.earthhack.impl.modules.dev.bouncebegone.BounceBeGone;
 import me.earth.earthhack.impl.modules.dev.bettereat.BetterEat;
-import me.earth.earthhack.impl.modules.dev.chatencrypt.ChatEncrypt;
 import me.earth.earthhack.impl.modules.misc.backup.BackUp;
 import me.earth.earthhack.impl.modules.combat.criticals.Criticals;
 import me.earth.earthhack.impl.modules.combat.holefiller.HoleFiller;
@@ -100,7 +96,6 @@ import me.earth.earthhack.impl.modules.misc.tooltips.ToolTips;
 import me.earth.earthhack.impl.modules.misc.tpssync.TpsSync;
 import me.earth.earthhack.impl.modules.misc.tracker.Tracker;
 import me.earth.earthhack.impl.modules.misc.truedurability.TrueDurability;
-import me.earth.earthhack.impl.modules.dev.holesnap.HoleSnap;
 import me.earth.earthhack.impl.modules.movement.antimove.NoMove;
 import me.earth.earthhack.impl.modules.movement.autosprint.AutoSprint;
 import me.earth.earthhack.impl.modules.movement.avoid.Avoid;
@@ -240,7 +235,6 @@ public class ModuleManager extends IterationRegister<Module>
         this.forceRegister(new AutoReconnect());
         this.forceRegister(new AutoRespawn());
         this.forceRegister(new BuildHeight());
-        this.forceRegister(new BoatKiller());
         this.forceRegister(new Chat());
         this.forceRegister(new ExtraTab());
         this.forceRegister(new Logger());
@@ -271,7 +265,6 @@ public class ModuleManager extends IterationRegister<Module>
         this.forceRegister(new PacketDelay());
         this.forceRegister(new RPC());
 
-        this.forceRegister(new HoleSnap());
         this.forceRegister(new AirJump());
         this.forceRegister(new AutoWalk());
         this.forceRegister(new AutoSprint());
@@ -376,11 +369,8 @@ public class ModuleManager extends IterationRegister<Module>
         this.forceRegister(new AutoEZ());
         this.forceRegister(new BedAura());
         this.forceRegister(new BackUp());
-        this.forceRegister(new BedBasePlace());
         this.forceRegister(new PingBypassModule());
-        this.forceRegister(new ChatEncrypt());
         this.forceRegister(new BetterEat());
-        this.forceRegister(new BounceBeGone());
         this.forceRegister(new Atlas());
         this.forceRegister(new AltSync());
         this.forceRegister(new PistonAura());
